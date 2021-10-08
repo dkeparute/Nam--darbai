@@ -44,13 +44,20 @@ console.log("7------------------------------------------------------------");
 
 //8. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5;
 
-let atsitiktinis;
-
 while (atsitiktinis !== 5) {
     atsitiktinis = Math.trunc(Math.random() * 11);
     console.log(atsitiktinis);
 }
-console.log("8------------------------------------------------------------");
+
+// ARBA DO WHILE:
+
+// do {
+//     let atsitiktinis = Math.trunc(Math.random() * 11);
+//        console.log(atsitiktinis);
+   
+//    } while (atsitiktinis !== 5)
+
+// console.log("8------------------------------------------------------------");
 
 //9. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių suma viršija 100;
 // let suma = 0;
