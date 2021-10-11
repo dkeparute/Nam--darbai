@@ -89,7 +89,7 @@
 //     }
 // }
 
-// console.lo]g("didziausia masyvo reiksme: ", didziausia);
+// console.log("didziausia masyvo reiksme: ", didziausia);
 // console.log("kiek tokių didžiausių reikšmių masyve yra: ", kartai);
 
 // console.log("5------------------------------------------------------------");
@@ -181,12 +181,12 @@
 // }
 // console.log("naujas monetu masyvas su reiksmemis mazesnemis arba lygioms 2: ", monetos);
 // console.log("naujas popieriniu pinigu masyvas su reiksmemis didesnemis uz 2: ", popieriniaiPinigai);
-// console.log("9------------------------------------------------------------");
-
 // let naujaPinigine = [];
 // naujaPinigine.push(monetos);
 // naujaPinigine.push(popieriniaiPinigai);
 // console.log("pinigine su skyreliais: monetoms ir popieriniams pinigams: ", naujaPinigine);
+
+// console.log("9------------------------------------------------------------");
 
 //10. Į 9 uždavinio masyvą, piniginę su dviem skyreliais, pridėti trečią skyrelį- masyvą su kortelėm: ['KIKA', 'Euro Vaistinė', 'Drogas', 'Ačiū', 'Lietuvos Geležinkeliai', 'Mano RIMI'];
 
@@ -315,6 +315,7 @@
 //     } else {
 //         korteles[i] = "Visa";
 //     }
+// }
 //     console.log("i korteliu skyriu prideta atsitiktiniu Visa ir Master kortelius ir masyvo ilgis yra 20:", korteles);
 
 // console.log("12------------------------------------------------------------");
@@ -384,8 +385,6 @@
 // }
 
 // console.log("kiek Visos korteliu: ", kiekVisa, "kiek MasterCard korteliu: ", kiekMaster);
-
-// reik sugrizti cia
 
 // console.log("13------------------------------------------------------------");
 
